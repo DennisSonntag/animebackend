@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@consumet/extensions':
     specifier: https://github.com/consumet/consumet.ts.git
-    version: github.com/consumet/consumet.ts/7367a3fef1d476b899f87e5265eccc01da07e4c3
+    version: git/github.com+consumet/consumet.ts/52927f53ff49cbf1588d0c68e7bc04158b8f29c5
   '@fastify/cors':
     specifier: ^8.2.0
     version: 8.4.0
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^0.27.2
     version: 0.27.2
   chalk:
-    specifier: 4.1.2
-    version: 4.1.2
+    specifier: 5.3.0
+    version: 5.3.0
   cheerio:
     specifier: 1.0.0-rc.12
     version: 1.0.0-rc.12
@@ -199,13 +199,6 @@ packages:
       uri-js: 4.4.1
     dev: false
 
-  /ansi-styles@4.3.0:
-    resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
-    engines: {node: '>=8'}
-    dependencies:
-      color-convert: 2.0.1
-    dev: false
-
   /anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
@@ -292,12 +285,9 @@ packages:
       ieee754: 1.2.1
     dev: false
 
-  /chalk@4.1.2:
-    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
-    engines: {node: '>=10'}
-    dependencies:
-      ansi-styles: 4.3.0
-      supports-color: 7.2.0
+  /chalk@5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
   /cheerio-select@2.1.0:
@@ -342,17 +332,6 @@ packages:
   /cluster-key-slot@1.1.2:
     resolution: {integrity: sha512-RMr0FhtfXemyinomL4hrWcYJxmX6deFdCxpJzhDttxgO1+bcCnkk+9drydLVDmAMG7NE6aN/fl4F7ucU/90gAA==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /color-convert@2.0.1:
-    resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
-    engines: {node: '>=7.0.0'}
-    dependencies:
-      color-name: 1.1.4
-    dev: false
-
-  /color-name@1.1.4:
-    resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: false
 
   /combined-stream@1.0.8:
@@ -629,11 +608,6 @@ packages:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
     dev: true
-
-  /has-flag@4.0.0:
-    resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
-    engines: {node: '>=8'}
-    dev: false
 
   /htmlparser2@8.0.2:
     resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
@@ -1024,13 +998,6 @@ packages:
       has-flag: 3.0.0
     dev: true
 
-  /supports-color@7.2.0:
-    resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
-    engines: {node: '>=8'}
-    dependencies:
-      has-flag: 4.0.0
-    dev: false
-
   /thread-stream@2.4.0:
     resolution: {integrity: sha512-xZYtOtmnA63zj04Q+F9bdEay5r47bvpo1CaNqsKi7TpoJHcotUez8Fkfo2RJWpW91lnnaApdpRbVwCWsy+ifcw==}
     dependencies:
@@ -1134,8 +1101,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  github.com/consumet/consumet.ts/7367a3fef1d476b899f87e5265eccc01da07e4c3:
-    resolution: {tarball: https://codeload.github.com/consumet/consumet.ts/tar.gz/7367a3fef1d476b899f87e5265eccc01da07e4c3}
+  git/github.com+consumet/consumet.ts/52927f53ff49cbf1588d0c68e7bc04158b8f29c5:
+    resolution: {commit: 52927f53ff49cbf1588d0c68e7bc04158b8f29c5, repo: git@github.com:consumet/consumet.ts.git, type: git}
     name: '@consumet/extensions'
     version: 1.5.2
     prepare: true
