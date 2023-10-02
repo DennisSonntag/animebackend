@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@consumet/extensions':
     specifier: https://github.com/consumet/consumet.ts.git
-    version: github.com/consumet/consumet.ts/7367a3fef1d476b899f87e5265eccc01da07e4c3
+    version: git/github.com+consumet/consumet.ts/ccf729c2c22bcacd7b945587ed9b1b1fe27b9357
   '@fastify/cors':
     specifier: ^8.2.0
     version: 8.4.0
@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0
   '@types/node':
-    specifier: ^18.11.17
-    version: 18.17.18
+    specifier: ^20.8.0
+    version: 20.8.0
   '@types/ws':
     specifier: ^8.5.3
     version: 8.5.5
@@ -46,7 +46,7 @@ dependencies:
     version: 4.4.0
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@types/node@18.17.18)(typescript@5.0.2)
+    version: 10.9.1(@types/node@20.8.0)(typescript@5.0.2)
   typescript:
     specifier: 5.0.2
     version: 5.0.2
@@ -145,6 +145,10 @@ packages:
 
   /@types/node@18.17.18:
     resolution: {integrity: sha512-/4QOuy3ZpV7Ya1GTRz5CYSz3DgkKpyUptXuQ5PPce7uuyJAOR7r9FhkmxJfvcNUXyklbC63a+YvB3jxy7s9ngw==}
+    dev: false
+
+  /@types/node@20.8.0:
+    resolution: {integrity: sha512-LzcWltT83s1bthcvjBmiBvGJiiUe84NWRHkw+ZV6Fr41z2FbIzvc815dk2nQ3RAKMuN2fkenM/z3Xv2QzEpYxQ==}
     dev: false
 
   /@types/ws@8.5.5:
@@ -1056,7 +1060,7 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /ts-node@10.9.1(@types/node@18.17.18)(typescript@5.0.2):
+  /ts-node@10.9.1(@types/node@20.8.0)(typescript@5.0.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -1075,7 +1079,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 18.17.18
+      '@types/node': 20.8.0
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -1134,8 +1138,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  github.com/consumet/consumet.ts/7367a3fef1d476b899f87e5265eccc01da07e4c3:
-    resolution: {tarball: https://codeload.github.com/consumet/consumet.ts/tar.gz/7367a3fef1d476b899f87e5265eccc01da07e4c3}
+  git/github.com+consumet/consumet.ts/ccf729c2c22bcacd7b945587ed9b1b1fe27b9357:
+    resolution: {commit: ccf729c2c22bcacd7b945587ed9b1b1fe27b9357, repo: git@github.com:consumet/consumet.ts.git, type: git}
     name: '@consumet/extensions'
     version: 1.5.2
     prepare: true
